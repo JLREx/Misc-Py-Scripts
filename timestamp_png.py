@@ -1,5 +1,6 @@
 # This code is written for usage in subject TPR2251 Pattern Recognition. 
 # You may modify the parameters to suit your needs
+# This is not a professional code by any means, it is just a random code to help fulfilling my assignment more easily. 
 
 # See https://stackoverflow.com/a/39501288 for explanation on getting the creation time. 
 # See https://pillow.readthedocs.io/en/stable/ for documentation of the PIL library
@@ -20,7 +21,7 @@ def timestamp_photo(input_photo, output_photo, text, pos):
     # make the image editable
     drawing = ImageDraw.Draw(photo)
 
-    font = ImageFont.truetype(r"C:\Windows\Fonts\Arial.ttf", 60)
+    font = ImageFont.truetype(r"C:\Windows\Fonts\Arial.ttf", 60) # You will need to change this path if you are not using Windows
     drawing.text(pos, text, fill = "black", font = font)
     photo.save(output_photo)
 
