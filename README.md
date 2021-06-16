@@ -1,2 +1,2 @@
 # Misc-Py-Scripts
-A bunch (hopefully) of Python scripts for different purposes. 
+Some random Python scripts or programs. 
